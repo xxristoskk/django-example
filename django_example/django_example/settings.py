@@ -30,7 +30,7 @@ SECRET_KEY = secret
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://git.heroku.com/tw33typy.git']
+ALLOWED_HOSTS = ['https://git.heroku.com/testingtw33typy.git']
 
 
 # Application definition
@@ -88,10 +88,10 @@ sql_pw = os.environ['sql_pw']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'g5by9d8f6ydyv1cx',
-        'USER': 'lhr6naqoj5t0k7vp',
+        'NAME': 'ne61voevl2wgddg6',
+        'USER': 'eoxc52jaaqxzdwoj',
         'PASSWORD': sql_pw,
-        'HOST': 'i943okdfa47xqzpy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        'HOST': 'enqhzd10cxh7hv2e.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
