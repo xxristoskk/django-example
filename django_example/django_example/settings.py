@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'tw33tyPyElections.urls'
+ROOT_URLCONF = 'django_example.urls'
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tw33tyPyElections.wsgi.application'
+WSGI_APPLICATION = 'django_example.wsgi.application'
 
 
 # Database
@@ -133,7 +133,7 @@ USE_TZ = True
 
 CRISPY_TEMPLATE = 'bootstrap4'
 
-ASGI_APPLICATION = 'tw33tyPyElections.routing.application'
+ASGI_APPLICATION = 'django_example.routing.application'
 
 CHANNEL_LAYERS = {
     'default': {
