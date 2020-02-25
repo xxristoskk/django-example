@@ -78,11 +78,12 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_example.wsgi.application'
+WSGI_APPLICATION = 'tw33tyPyElections.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
+
 sql_pw = os.environ['sql_pw']
 
 DATABASES = {
@@ -133,7 +134,7 @@ USE_TZ = True
 
 CRISPY_TEMPLATE = 'bootstrap4'
 
-ASGI_APPLICATION = 'django_example.routing.application'
+ASGI_APPLICATION = 'tw33tyPyElections.routing.application'
 
 CHANNEL_LAYERS = {
     'default': {
